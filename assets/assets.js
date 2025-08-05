@@ -157,7 +157,7 @@ export const productsDummyData = [
     "price": 299,
     "offerPrice": 199,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/clock.png"
+      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/clock2.jpg"
     ],
     "category": "Clock",
     "date": 1738667310300,
@@ -171,8 +171,7 @@ export const productsDummyData = [
     "price": 199,
     "offerPrice": 99,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/Amazon-Kitchen-Decor-8-300x300.jpg",
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/utencil.png"
+      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/Amazon-Kitchen-Decor-8-300x300.jpg"
     ],
     "category": "Spoon",
     "date": 1738667366224,
@@ -200,7 +199,7 @@ export const productsDummyData = [
     "price": 299,
     "offerPrice": 259,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/pt.png"
+      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/pot2.png"
     ],
     "category": "Pottery",
     "date": 1738667503075,

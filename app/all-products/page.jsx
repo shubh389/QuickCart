@@ -1,13 +1,12 @@
 'use client'
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import ProductCard from "@/components/ProductCard";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useAppContext } from "@/context/AppContext";
 
-const AllProducts = () => {
-
+function AllProductsContent() {
     const { products } = useAppContext();
     const searchParams = useSearchParams();
     const [filteredProducts, setFilteredProducts] = useState(products);
@@ -69,6 +68,14 @@ const AllProducts = () => {
             </div>
             <Footer />
         </>
+    );
+}
+
+const AllProducts = () => {
+    return (
+        <Suspense fallback={<div className="flex items-center justify-center min-h-screen">Loading...</div>}>
+            <AllProductsContent />
+        </Suspense>
     );
 };
 
