@@ -47,6 +47,18 @@ import product_details_page_apple_earphone_image3 from "./product_details_page_a
 import product_details_page_apple_earphone_image4 from "./product_details_page_apple_earphone_image4.png";
 import product_details_page_apple_earphone_image5 from "./product_details_page_apple_earphone_image5.png";
 
+// Additional imports for product dummy data
+import Deshi_Ghee from "./Deshi_Ghee.png";
+import Deshi_Ghee1 from "./Deshi_Ghee1.png";
+import clock2 from "./clock2.jpg";
+import Amazon_Kitchen_Decor from "./Amazon-Kitchen-Decor-8-300x300.jpg";
+import pot from "./pot.png";
+import pot2 from "./pot2.png";
+import vasp1 from "./vasp1.jpg";
+import vasp2 from "./vasp2.jpg";
+import vasp3 from "./vasp3.jpg";
+import pic from "./pic.jpg";
+
 export const assets = {
   logo,
   search_icon,
