@@ -58,6 +58,9 @@ import vasp1 from "./vasp1.jpg";
 import vasp2 from "./vasp2.jpg";
 import vasp3 from "./vasp3.jpg";
 import pic from "./pic.jpg";
+import whatsapp_cf1cc433 from "./WhatsApp Image 2025-04-21 at 20.13.24_cf1cc433.jpg";
+import whatsapp_6a3057eb from "./WhatsApp Image 2025-04-21 at 20.13.24_6a3057eb.jpg";
+import r3_jpeg from "./R (3).jpeg";
 
 export const assets = {
   logo,
@@ -151,11 +154,8 @@ export const productsDummyData = [
     "price":399,
     "offerPrice":350,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/Deshi_Ghee.png",
-      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k4dafzhwhgcn5tnoylrw.webp",
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/Deshi_Ghee1.png",
-      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
-      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
+      Deshi_Ghee,
+      Deshi_Ghee1
     ],
     "category": "Ghee",
     "date": 1738667236865,
@@ -169,7 +169,7 @@ export const productsDummyData = [
     "price": 299,
     "offerPrice": 199,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/clock2.jpg"
+      clock2
     ],
     "category": "Clock",
     "date": 1738667310300,
@@ -183,7 +183,7 @@ export const productsDummyData = [
     "price": 199,
     "offerPrice": 99,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/Amazon-Kitchen-Decor-8-300x300.jpg"
+      Amazon_Kitchen_Decor
     ],
     "category": "Spoon",
     "date": 1738667366224,
@@ -197,7 +197,7 @@ export const productsDummyData = [
     "price": 399,
     "offerPrice": 299,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/pot.png"
+      pot
     ],
     "category": "Vase",
     "date": 1738667417511,
@@ -211,7 +211,7 @@ export const productsDummyData = [
     "price": 299,
     "offerPrice": 259,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/pot2.png"
+      pot2
     ],
     "category": "Pottery",
     "date": 1738667503075,
@@ -225,9 +225,8 @@ export const productsDummyData = [
     "price": 999,
     "offerPrice": 899,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/vasp1.jpg",
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/vasp2.jpg"
-      
+      vasp1,
+      vasp2
     ],
     "category": "Vase",
     "date": 1738667788883,
@@ -241,7 +240,7 @@ export const productsDummyData = [
     "price": 699,
     "offerPrice": 599,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/vasp3.jpg"
+      vasp3
     ],
     "category": "Vase",
     "date": 1738667977644,
@@ -255,7 +254,7 @@ export const productsDummyData = [
     "price": 499,
     "offerPrice": 399,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/pic.jpg"
+      pic
     ],
     "category": "Painting",
     "date": 1738668086331,
@@ -269,8 +268,8 @@ export const productsDummyData = [
     "price": 1699.99,
     "offerPrice": 1499.99,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/WhatsApp%20Image%202025-04-21%20at%2020.13.24_cf1cc433.jpg",
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/WhatsApp%20Image%202025-04-21%20at%2020.13.24_6a3057eb.jpg"
+      whatsapp_cf1cc433,
+      whatsapp_6a3057eb
     ],
       
     "category": "Sharee",
@@ -285,7 +284,7 @@ export const productsDummyData = [
     "price": 299,
     "offerPrice": 199,
     "image": [
-      "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/R%20(3).jpeg"
+      r3_jpeg
     ],
     "category": "Sculpture",
     "date": 1738668619198,
@@ -296,7 +295,7 @@ export const productsDummyData = [
 export const userDummyData = {
   "_id": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
   "name": "Shubham",
-  "email": "Shubhamdev9128@example.com",
+  "email": "Shubhamdev9128@gmail.com",
   "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoiZGVmYXVsdCIsImlpZCI6Imluc18ycnlnUnFiUDBYT2dEZ2h1ZmRXcGlpdWV5OXoiLCJyaWQiOiJ1c2VyXzJzWkZIUzFVSUl5c0p5RFZ6Q3BRaFVoVElodyJ9",
   "cartItems": {
     // "67a1f4e43f34a77b6dde9144": 3

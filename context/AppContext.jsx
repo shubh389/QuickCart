@@ -26,20 +26,9 @@ export const AppContextProvider = (props) => {
     const [cartItems, setCartItems] = useState({})
 
     const fetchProductData = async () => {
-        try {
-            const { data } = await axios.get('/api/product/list');
-            if (data.success) {
-                setProducts(data.products);
-            } else {
-                // Fallback to dummy data if API fails
-                setProducts(productsDummyData);
-                console.error('Failed to fetch products from database, using dummy data');
-            }
-        } catch (error) {
-            // Fallback to dummy data if API fails
-            setProducts(productsDummyData);
-            console.error('Error fetching products:', error);
-        }
+        // Use dummy data for reliable product display
+        setProducts(productsDummyData);
+        console.log('Loaded', productsDummyData.length, 'products from dummy data');
     }
 
     const fetchUserData = async () => {
