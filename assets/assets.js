@@ -38,7 +38,7 @@ import girl_with_headphone_image from "./weaving.avif";
 import girl_with_earphone_image from "./paint1.jpg";
 import md_controller_image from "./md_controller_image.png";
 import sm_controller_image from "./culture.png";
-import jbl_soundbox_image from "./jbl_soundbox_image.png";
+import jbl_soundbox_image from "./jbl_soundbox_image.jpg";
 import boy_with_laptop_image from "./OIP (29).jpeg";
 import checkmark from "./checkmark.png";
 import product_details_page_apple_earphone_image1 from "./product_details_page_apple_earphone_image1.png";
@@ -136,8 +136,8 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Deshi Ghee",
     "description": "Desi Ghee is a type of clarified butter that holds a cherished place in Indian households for its rich flavor, nutritional benefits, and cultural significance. Made traditionally by simmering butter churned from cow or buffalo milk, Desi Ghee has a golden hue, a nutty aroma, and a smooth, creamy texture.",
-    "price":4.99,
-    "offerPrice":3.99,
+    "price":399,
+    "offerPrice":350,
     "image": [
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/Deshi_Ghee.png",
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k4dafzhwhgcn5tnoylrw.webp",
@@ -145,7 +145,7 @@ export const productsDummyData = [
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
     ],
-    "category": "Earphone",
+    "category": "Ghee",
     "date": 1738667236865,
     "__v": 0
   },
@@ -154,12 +154,12 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Clock",
     "description": "This handmade clock is a timeless piece of art, carefully crafted by skilled artisans using traditional techniques. Every detail—from the finely carved frame to the delicately painted dial—reflects hours of meticulous work and a deep passion for craftsmanship.",
-    "price": 2.99,
-    "offerPrice": 1.99,
+    "price": 299,
+    "offerPrice": 199,
     "image": [
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/clock.png"
     ],
-    "category": "Headphone",
+    "category": "Clock",
     "date": 1738667310300,
     "__v": 0
   },
@@ -168,27 +168,27 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "ornamental spoons",
     "description": "There are six pieces, each shaped somewhat like a spoon or stirrer, but with highly stylized designs.The heads of the spoons have intricate patterns, such as floral carvings, stars, and geometric designs..",
-    "price": 2.99,
-    "offerPrice": 1.99,
+    "price": 199,
+    "offerPrice": 99,
     "image": [
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/Amazon-Kitchen-Decor-8-300x300.jpg",
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/utencil.png"
     ],
-    "category": "Smartphone",
+    "category": "Spoon",
     "date": 1738667366224,
     "__v": 0
   },
   {
     "_id": "67a1f5993f34a77b6dde914e",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Vasap",
+    "name": "Vase",
     "description": "The Garmin Venu 2 smartwatch blends advanced fitness tracking with sophisticated design, offering a wealth of features such as heart rate monitoring, GPS, and sleep tracking. Built with a 24-hour battery life, this watch is ideal for fitness enthusiasts and anyone looking to enhance their daily lifestyle. With a stunning AMOLED display and customizable watch faces, the Venu 2 combines technology with style seamlessly.",
-    "price": 3.99,
-    "offerPrice": 2.99,
+    "price": 399,
+    "offerPrice": 299,
     "image": [
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/pot.png"
     ],
-    "category": "Earphone",
+    "category": "Vase",
     "date": 1738667417511,
     "__v": 0
   },
@@ -197,12 +197,12 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Pot",
     "description": "The PlayStation 5 takes gaming to the next level with ultra-HD graphics, a powerful 825GB SSD, and ray tracing technology for realistic visuals. Whether you're into high-action games or immersive storytelling, the PS5 delivers fast loading times, seamless gameplay, and stunning visuals. It's a must-have for any serious gamer looking for the ultimate gaming experience.",
-    "price": 5.99,
-    "offerPrice": 4.99,
+    "price": 299,
+    "offerPrice": 259,
     "image": [
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/pt.png"
     ],
-    "category": "Accessories",
+    "category": "Pottery",
     "date": 1738667503075,
     "__v": 0
   },
@@ -211,14 +211,14 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": " Black-Figure Amphora ",
     "description": "Achilles and Ajax playing a board game during a break in the Trojan War. The figures are detailed with inscriptions and elaborate patterns on garments and armor",
-    "price": 9.99,
-    "offerPrice": 8.99,
+    "price": 999,
+    "offerPrice": 899,
     "image": [
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/vasp1.jpg",
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/vasp2.jpg"
       
     ],
-    "category": "Camera",
+    "category": "Vase",
     "date": 1738667788883,
     "__v": 0
   },
@@ -227,12 +227,12 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "ceramic vase",
     "description": "It features a beautiful gradient of blue shades, starting deeper at the bottom and gradually blending into lighter tones toward the top. The blue coloration looks almost like watercolor blending or cloud-like  textures.",
-    "price": 6.99,
-    "offerPrice": 4.99,
+    "price": 699,
+    "offerPrice": 599,
     "image": [
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/vasp3.jpg"
     ],
-    "category": "Laptop",
+    "category": "Vase",
     "date": 1738667977644,
     "__v": 0
   },
@@ -241,12 +241,12 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Madhubani painting",
     "description": "It uses bright colors, bold outlines, and intricate patterns.This style usually shows mythological stories, weddings, nature, and gods and goddesses.Artists often use natural colors (from plants, flowers) and bamboo sticks or twigs to paint.",
-    "price": 4.99,
-    "offerPrice": 3.59,
+    "price": 499,
+    "offerPrice": 399,
     "image": [
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/pic.jpg"
     ],
-    "category": "Earphone",
+    "category": "Painting",
     "date": 1738668086331,
     "__v": 0
   },
@@ -262,7 +262,7 @@ export const productsDummyData = [
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/WhatsApp%20Image%202025-04-21%20at%2020.13.24_6a3057eb.jpg"
     ],
       
-    "category": "Accessories",
+    "category": "Sharee",
     "date": 1738668126660,
     "__v": 0
   },
@@ -271,12 +271,12 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "terracotta",
     "description": "The central focus is on large, colorful statues of royal-looking figures with big moustaches, turbans, and jewelry — typical representations of Rajasthani kings or noblemen.",
-    "price": 2.99,
-    "offerPrice": 1.99,
+    "price": 299,
+    "offerPrice": 199,
     "image": [
       "https://raw.githubusercontent.com/shubh389/LocalCart/main/assets/R%20(3).jpeg"
     ],
-    "category": "Laptop",
+    "category": "Sculpture",
     "date": 1738668619198,
     "__v": 0
   }
@@ -284,8 +284,8 @@ export const productsDummyData = [
 
 export const userDummyData = {
   "_id": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-  "name": "GreatStack",
-  "email": "admin@example.com",
+  "name": "Shubham",
+  "email": "Shubhamdev9128@example.com",
   "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoiZGVmYXVsdCIsImlpZCI6Imluc18ycnlnUnFiUDBYT2dEZ2h1ZmRXcGlpdWV5OXoiLCJyaWQiOiJ1c2VyXzJzWkZIUzFVSUl5c0p5RFZ6Q3BRaFVoVElodyJ9",
   "cartItems": {
     // "67a1f4e43f34a77b6dde9144": 3
@@ -324,7 +324,7 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "Shubham",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -351,7 +351,7 @@ export const orderDummyData = [
           "image": [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667311/m16coelz8ivkk9f0nwrz.png"
           ],
-          "category": "Headphone",
+          "category": "Clock",
           "date": 1738667310300,
           "__v": 0
         },
@@ -363,7 +363,7 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "Shubham",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -405,7 +405,7 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "Shubham",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -423,7 +423,7 @@ export const addressDummyData = [
   {
     "_id": "67a1e4233f34a77b6dde9055",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "fullName": "GreatStack",
+    "fullName": "Shubham",
     "phoneNumber": "0123456789",
     "pincode": 654321,
     "area": "Main Road , 123 Street, G Block",
@@ -432,3 +432,22 @@ export const addressDummyData = [
     "__v": 0
   }
 ]
+
+export const SearchIcon = ({ className = "w-5 h-5", color = "currentColor" }) => {
+  return (
+    <svg 
+      className={className}
+      fill="none" 
+      stroke={color} 
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        strokeWidth={2} 
+        d="m21 21-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" 
+      />
+    </svg>
+  );
+};

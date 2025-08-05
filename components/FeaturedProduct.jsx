@@ -6,20 +6,20 @@ const products = [
   {
     id: 1,
     image: assets.girl_with_headphone_image,
-    title: "Unparalleled Sound",
-    description: "Experience crystal-clear audio with premium headphones.",
+    title: "Masterful Weaving",
+    description: "Experience the artistry of handwoven textiles from skilled artisans.",
   },
   {
     id: 2,
     image: assets.girl_with_earphone_image,
-    title: "Stay Connected",
-    description: "Compact and stylish earphones for every occasion.",
+    title: "Vibrant Creations",
+    description: "Discover the magic of traditional hand-painted art and vibrant designs.",
   },
   {
     id: 3,
     image: assets.boy_with_laptop_image,
-    title: "Power in Every Pixel",
-    description: "Shop the latest laptops for work, gaming, and more.",
+    title: "Intricate Craftsmanship",
+    description: "Immerse yourself in the elegance of handmade carvings and fine detailing.",
   },
 ];
 
